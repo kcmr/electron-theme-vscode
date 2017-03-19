@@ -1,6 +1,6 @@
 {
     "name": "electron",
-    "displayName": "electron",
+    "displayName": "Electron Color Theme",
     "description": "Dark Color Theme based on Electron Highlighter for Atom",
     "version": "0.0.1",
     "publisher": "kuscamara",
@@ -9,6 +9,12 @@
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "atom",
+        "dark",
+        "one dark"
     ],
     "contributes": {
         "themes": [
