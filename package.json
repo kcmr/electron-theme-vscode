@@ -1,0 +1,22 @@
+{
+    "name": "electron",
+    "displayName": "electron",
+    "description": "Dark Color Theme",
+    "version": "0.0.1",
+    "publisher": "kuscamara",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Electron",
+                "uiTheme": "vs-dark",
+                "path": "./themes/electron.tmTheme"
+            }
+        ]
+    }
+}
