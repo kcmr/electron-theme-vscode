@@ -16,6 +16,11 @@
         "dark",
         "one dark"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kcmr/electron-theme-vscode"
+    },
+    "icon": "images/icon.png",
     "contributes": {
         "themes": [
             {
