@@ -2,7 +2,7 @@
     "name": "electron",
     "displayName": "Electron Color Theme",
     "description": "Dark Color Theme based on Electron Highlighter for Atom",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "kuscamara",
     "engines": {
         "vscode": "^1.10.0"
