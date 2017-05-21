@@ -32,7 +32,8 @@
     "sideBarTitle.foreground": "#f44747",
     "editor.wordHighlightBackground": "#141820",
     "editor.selectionBackground": "#141820",
-    "pickerGroup.foreground": "#FFE792"
+    "pickerGroup.foreground": "#FFE792",
+    "statusBar.background": "#f30f4c"
   },
   "tokenColors": [
     {
