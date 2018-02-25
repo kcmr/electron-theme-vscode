@@ -9,7 +9,7 @@
     "editorWhitespace.foreground": "#3b3a32",
     "editorIndentGuide.background": "#97a7c826",
     "activityBar.background": "#141820",
-    "sideBar.background": "#1C222F",
+    "sideBar.background": "#1A1F2E",
     "tab.activeBackground": "#141820",
     "tab.inactiveBackground": "#141820",
     "tab.activeBorder": "#f44747",
@@ -23,7 +23,7 @@
     "sideBarSectionHeader.background": "#141820",
     "activityBarBadge.background": "#82C600",
     "activityBarBadge.foreground": "#141820",
-    "foreground": "#A8B2C2",
+    "foreground": "#818CA6",
     "editorLineNumber.foreground": "#3D4D67",
     "titleBar.activeBackground": "#141820",
     "input.background": "#141820",
@@ -34,7 +34,9 @@
     "editor.selectionBackground": "#141820",
     "pickerGroup.foreground": "#FFE792",
     "statusBar.background": "#212836",
-    "statusBar.foreground": "#A8B2C2"
+    "statusBar.foreground": "#818CA6",
+    "gitDecoration.modifiedResourceForeground": "#E3C18A",
+    "gitDecoration.untrackedResourceForeground": "#70CA8E"
   },
   "tokenColors": [
     {
