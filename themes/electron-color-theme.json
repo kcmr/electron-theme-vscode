@@ -4,21 +4,21 @@
   "colors": {
     "editor.background": "#212836",
     "editor.foreground": "#97a7c8",
-    "editor.selectionBackground": "#343f55",
     "editor.lineHighlightBackground": "#99bbff0a",
     "editorCursor.foreground": "#f30f4c",
     "editorWhitespace.foreground": "#3b3a32",
     "editorIndentGuide.background": "#97a7c826",
     "activityBar.background": "#141820",
     "sideBar.background": "#1C222F",
-    "tab.activeBackground": "#212836",
+    "tab.activeBackground": "#141820",
     "tab.inactiveBackground": "#141820",
+    "tab.activeBorder": "#f44747",
     "panel.background": "#141820",
     "editorGroupHeader.tabsBackground": "#141820",
     "list.activeSelectionBackground": "#82C600",
     "list.activeSelectionForeground": "#141820",
     "list.hoverBackground": "#141820",
-    "list.inactiveSelectionBackground": "#3D4D67",
+    "list.inactiveSelectionBackground": "#141820",
     "list.focusBackground": "#3D4D67",
     "sideBarSectionHeader.background": "#141820",
     "activityBarBadge.background": "#82C600",
@@ -33,14 +33,14 @@
     "editor.wordHighlightBackground": "#141820",
     "editor.selectionBackground": "#141820",
     "pickerGroup.foreground": "#FFE792",
-    "statusBar.background": "#f30f4c"
+    "statusBar.background": "#212836",
+    "statusBar.foreground": "#A8B2C2"
   },
   "tokenColors": [
     {
       "name": "Global settings",
       "settings": {
-        "foreground": "#97a7c8ff",
-        "background": "#212836ff"
+        "foreground": "#97a7c8ff"
       }
     },
     {
@@ -55,6 +55,13 @@
       "scope": "string",
       "settings": {
         "foreground": "#f6f6f5"
+      }
+    },
+    {
+      "name": "Strings, Inherited Class",
+      "scope": "string.unquoted.html, string.quoted.single.js, string.quoted.single.html, constant.other.symbol, entity.other.inherited-class",
+      "settings": {
+        "foreground": "#B3D667"
       }
     },
     {
@@ -125,13 +132,6 @@
       }
     },
     {
-      "name": "Function name",
-      "scope": "entity.name.function",
-      "settings": {
-        "foreground": "#5da9ba"
-      }
-    },
-    {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
@@ -148,9 +148,8 @@
     },
     {
       "name": "Tag attribute",
-      "scope": "entity.other.attribute-name",
+      "scope": "entity.other.attribute-name, string.quoted.double.json",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#EAB780"
       }
     },
@@ -179,7 +178,7 @@
     },
     {
       "name": "JS function",
-      "scope": "entity.name.function.js",
+      "scope": "entity.name.function.js, entity.name.function.method.js, entity.name.accessor.js, entity.name.class.js",
       "settings": {
         "foreground": "#71b1fe"
       }
@@ -188,13 +187,12 @@
       "name": "JS variable type",
       "scope": "support.class.builtin.js",
       "settings": {
-        "fontStyle": "normal",
         "foreground": "#fffa9e"
       }
     },
     {
       "name": "JS variable parameter",
-      "scope": "variable.parameter.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js",
+      "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js",
       "settings": {
         "foreground": "#97a7c8"
       }
@@ -310,7 +308,6 @@
       "name": "Library class/type",
       "scope": "support.type, support.class",
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#4DB1D8"
       }
     },
@@ -396,13 +393,6 @@
       "scope": "support.function",
       "settings": {
         "foreground": "#4FF2F8"
-      }
-    },
-    {
-      "name": "Strings, Inherited Class",
-      "scope": "string, constant.other.symbol, entity.other.inherited-class",
-      "settings": {
-        "foreground": "#B3D667"
       }
     },
     {
