@@ -170,7 +170,7 @@
     },
     {
       "name": "Tag attribute",
-      "scope": "entity.other.attribute-name, string.quoted.double.json",
+      "scope": "entity.other.attribute-name, entity.other.attribute-name.class.css, string.quoted.double.json",
       "settings": {
         "foreground": "#EAB780"
       }
@@ -268,7 +268,7 @@
     },
     {
       "name": "CSS ID",
-      "scope": "meta.selector.css entity.other.attribute-name.id, meta.selector.css entity.other.attribute-name.class, meta.selector.css",
+      "scope": "entity.other.attribute-name.id",
       "settings": {
         "foreground": "#85AC3A"
       }
@@ -277,7 +277,7 @@
       "name": "CSS Property Name",
       "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#97a7c8"
+        "foreground": "#4ff2f8"
       }
     },
     {
@@ -352,7 +352,7 @@
     },
     {
       "name": "Variables",
-      "scope": "variable",
+      "scope": "variable, meta.selector.css",
       "settings": {
         "foreground": "#E26674"
       }
