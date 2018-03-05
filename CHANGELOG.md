@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.2.2
+- Improve contrast for selected text
+- Change background color of selects
+
 ## v0.2.0
 - Improve diffEditor contrast for inserted text
 - Change gutter colors for added and modified code (Atom like)
