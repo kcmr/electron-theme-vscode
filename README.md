@@ -1,6 +1,6 @@
 # Electron Color Theme
 
-Dark theme based on Electron Highlighter for Atom.
+Dark theme based on [Electron Highlighter](https://github.com/mikemcbride/electron-highlighter-syntax) for Atom.
 
 ## Screenshots
 
