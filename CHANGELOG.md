@@ -1,5 +1,9 @@
 # Change Log
 
+## v0.2.4
+- Set color of the active line number.
+- Update the screenshots.
+
 ## v0.2.2
 - Improve contrast for selected text
 - Change background color of selects
