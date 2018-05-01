@@ -18,6 +18,7 @@
     "editorGutter.addedBackground": "#308E68",
     "editorGutter.modifiedBackground": "#938464",
     "editorIndentGuide.background": "#97a7c826",
+    "editorLineNumber.activeForeground": "#818ca6",
     "editorLineNumber.foreground": "#3D4D67",
     "editorSuggestWidget.background": "#141820",
     "editorWhitespace.foreground": "#3b3a32",
