@@ -87,9 +87,28 @@
     },
     {
       "name": "Strings, Inherited Class",
-      "scope": "string.unquoted.html, string.quoted.single.js, string.quoted.double.js, string.quoted.single.html, constant.other.symbol, entity.other.inherited-class",
+      "scope": "string.unquoted.html, string.quoted.double.js, string.quoted.single.html, constant.other.symbol, entity.other.inherited-class",
       "settings": {
         "foreground": "#B3D667"
+      }
+    },
+    {
+      "name": "String single quoted JS",
+      "scope": "string.quoted.single.js",
+      "settings": {
+        "foreground": "#70F49C"
+      }
+    },
+    {
+      "scope": "support.variable.dom.js",
+      "settings": {
+        "foreground": "#59f2f7"
+      }
+    },
+    {
+      "scope": "variable.other.constant.js, variable.other.constant.object.js, variable.other.constant.property.js",
+      "settings": {
+        "foreground": "#e9b684"
       }
     },
     {
@@ -186,7 +205,7 @@
     },
     {
       "name": "this",
-      "scope": "variable.language.this.js",
+      "scope": "variable.language.this.js, variable.language.this.ts, entity.name.type",
       "settings": {
         "foreground": "#eab780"
       }
@@ -207,14 +226,14 @@
     },
     {
       "name": "JS variable type",
-      "scope": "support.class.builtin.js",
+      "scope": "support.class.builtin.js, entity.name.type.class.js",
       "settings": {
         "foreground": "#fffa9e"
       }
     },
     {
       "name": "JS variable parameter",
-      "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js",
+      "scope": "variable.parameter.js, constant.other.object.key.js, variable.other.readwrite.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, meta.object-literal.key.js, meta.array.literal.js, meta.brace.round.js, punctuation.definition.block.js, meta.objectliteral.js",
       "settings": {
         "foreground": "#97a7c8"
       }
@@ -307,7 +326,7 @@
       "name": "Library function",
       "scope": "support.function",
       "settings": {
-        "foreground": "#4ff2f8"
+        "foreground": "#71b1fe"
       }
     },
     {
@@ -392,13 +411,6 @@
       "scope": "storage",
       "settings": {
         "foreground": "#ba8baf"
-      }
-    },
-    {
-      "name": "Support",
-      "scope": "support.function",
-      "settings": {
-        "foreground": "#4FF2F8"
       }
     },
     {
