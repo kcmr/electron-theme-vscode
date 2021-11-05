@@ -631,6 +631,16 @@
       "settings": {
         "foreground": "#EF596F"
       }
+    },
+    {
+      "scope": [
+        "fenced_code.block.language",
+        "markup.raw.inner.restructuredtext",
+        "markup.fenced_code.block.markdown punctuation.definition.markdown"
+      ],
+      "settings": {
+        "foreground": "#3bb3e2"
+      }
     }
   ]
 }
