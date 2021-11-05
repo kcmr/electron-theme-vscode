@@ -544,7 +544,7 @@
     {
       "scope": "markup.inline.raw.string.markdown",
       "settings": {
-        "foreground": "#89CA78"
+        "foreground": "#70ca8e"
       }
     },
     {
