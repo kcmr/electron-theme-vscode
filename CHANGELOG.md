@@ -1,5 +1,8 @@
 # Change Log
 
+## v0.2.6
+- Improve markdown syntax. Thanks to [@FilipeBento](https://github.com/FilipeBento)
+
 ## v0.2.4
 - Set color of the active line number.
 - Update the screenshots.
