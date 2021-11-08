@@ -83,7 +83,7 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#f6f6f5"
+        "foreground": "#35d195"
       }
     },
     {
@@ -383,7 +383,7 @@
       "name": "Functions",
       "scope": "entity.name.function, meta.require, support.function.any-method",
       "settings": {
-        "foreground": "#7cafc2"
+        "foreground": "#239683"
       }
     },
     {
@@ -397,14 +397,14 @@
       "name": "Classes",
       "scope": "meta.class",
       "settings": {
-        "foreground": "#f8f8f8"
+        "foreground": "#91a33e"
       }
     },
     {
       "name": "Methods",
       "scope": "keyword.other.special-method",
       "settings": {
-        "foreground": "#7cafc2"
+        "foreground": "#239683"
       }
     },
     {
